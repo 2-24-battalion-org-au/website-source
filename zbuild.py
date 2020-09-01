@@ -28,6 +28,7 @@ toolkit.setting('keywords',"Tobruk, 2nd AIF, Tel El Eisa, El Alamein, Rats of To
 ht.website_info('/whoami.txt',"i am generated via cam's magic and stored on appengine")
 
 ht.precopy('/CNAME')
+ht.precopy('/Notice of Meeting.docx')
 ht.build_final()
 
 
