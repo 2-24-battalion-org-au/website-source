@@ -4,44 +4,46 @@
 
 
 event            Anzac day March
-.date            2019/4/25
+.date            2020/4/25
 .image           /image.cardheaders/anzac.jpg
 .time            Check Furphy Flyer for exact details
 .location        Check Furphy Flyer
 .location.maps   Flinders St, Melbourne, Australia
-#.disable
+.disable
 
 event            Anzac Reunion Lunch
-.date            2019/4/25
+.date            2020/4/25
 .image           /image.cardheaders/anzac.jpg
 .time            12:00pm-2:00pm
 .location        Pascoe Vale RSL
 .location.maps   40 Cumberland Rd, Pascoe Vale VIC 3044, Australia
-#.disable
+.disable
 
 event            Battalion Birthday Lunch
-.date            2019/7/5
+.date            2020/7
 .image           /image.cardheaders/birthday.jpg
 .time            12:00pm-2:00pm
 .location        Pascoe Vale RSL
 .location.maps   40 Cumberland Rd, Pascoe Vale VIC 3044, Australia
-#.disable
+.disable
 
 event            2/24th Shrine Pilgrimage Service
-.date            2019/10/20
+.date            2020/10
 .image           /image.cardheaders/shrine.jpg
 .time            12:00pm-2:00pm
 .location.maps   Shine of Rememberance, Melboure, Australia
+.disable
 
 event            9th Division Shrine Pilgrimage Service
-.date            2019/10/24
+.date            2020/10
 .image           /image.cardheaders/shrine.jpg
 .time            11am to be followed by luncheon at scotch college
 .location.maps   Shine of Rememberance, Melboure, Australia
+.disable
 
 event            Wangaratta Reunion Weekend
-.date            2019/11/8
-.date.until      2019/11/10
+.date            2021/4/23
+.date.until      2021/4/25
 .image           /image.cardheaders/wangaratta.jpg
 .time            Various events
 .location        Various locations
