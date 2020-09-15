@@ -3,6 +3,10 @@
 
 window.onload=function() {
   document.getElementById("ssInput").focus();
+  if ( window.location.search.startsWith('?q=') ) {
+    document.getElementById("ssInput").value = window.location.search.slice(3);
+    SimpleSearch();
+    }
   };
 
 
