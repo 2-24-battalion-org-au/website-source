@@ -14,9 +14,9 @@ file  /rolls/simplesearch.html
 
 file  /rolls/battalion-all.csv
 .drop 3
-.output  | Surname | Given name | Service Number | Notes | Decd |
-.output  | ------- | ---------- | -------------- | ----- | ---- |
-.format  | {0} | {1} | {2} | {3} | {4} |
+.output  | Surname | Given name | Service Number | Notes | Decd | helper |
+.output  | ------- | ---------- | -------------- | ----- | ---- | ---- |
+.format  | {0} | {1} | {2} | {3} | {4} | <button onclick="SSH('{0}','{1}','{2}')">??</button> |
 .convert md
 
 

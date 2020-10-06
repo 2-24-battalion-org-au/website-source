@@ -13,9 +13,9 @@ file  /rolls/simplesearch.html
 
 file  /rolls/pow.csv
 .drop 3
-.output  | Surname | GivenName | ServiceNumber | Date |
-.output  | ------- | --------- | ------------- | ---- |
-.format  | {1} | {3} | {4} | {5} |
+.output  | Surname | GivenName | ServiceNumber | Date | helper|
+.output  | ------- | --------- | ------------- | ---- | ---- |
+.format  | {1} | {3} | {4} | {5} | <button onclick="SSH('{1}','{3}','{4}')">??</button> |
 .convert  md
 
 

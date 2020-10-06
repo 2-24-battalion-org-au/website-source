@@ -12,9 +12,9 @@ file  /rolls/simplesearch.html
 
 file  /rolls/kia.csv
 .drop 3
-.output  | Surname | GivenName | ServiceNumber | Company | Platoon | List | Notes | Decd | casualty | battle date |
-.output  | ------- | --------- | ------------- | ------- | ------- | ---- | ----- | ---- | -------- | ----------- |
-.format  | {0} | {1} | {2} | {3} | {4} | {5} | {6} | {7} | {8} | {9} |
+.output  | Surname | GivenName | ServiceNumber | Company | Platoon | List | Notes | Decd | casualty | battle date | helper |
+.output  | ------- | --------- | ------------- | ------- | ------- | ---- | ----- | ---- | -------- | ----------- | ------ |
+.format  | {0} | {1} | {2} | {3} | {4} | {5} | {6} | {7} | {8} | {9} | <button onclick="SSH('{0}','{1}','{2}')">??</button> |
 .convert  md
 
 

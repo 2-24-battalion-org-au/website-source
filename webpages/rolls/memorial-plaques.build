@@ -26,10 +26,11 @@ file  /rolls/memorial-plaques.csv
 .output     <th scope="col">Service</th>
 .output     <th scope="col">Decoration</th>
 .output     <th scope="col">Location</th>
+.output     <th scope="col">helper</th>
 .output     </tr>
 .output   </thead>
 .output   <tbody>
-.format    <tr><td>{0}</td><td>{2}</td><td>{3}</td><td>{6}</td><td>{8}</td></tr>
+.format    <tr><td>{0}</td><td>{2}</td><td>{3}</td><td>{6}</td><td>{8}</td><td><button onclick="SSH('{0}','{2}','{3}')">??</button></td></tr>
 .output.append  </tbody>
 .output.append  </table>
 

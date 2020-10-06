@@ -1,12 +1,38 @@
 
 
 <hr>
+
+<div class="container-fluid">
+
+<div class="row">
+<div class="col shadow bg-light border border-success">
 <p>
 Simple Search for <strong>Surname</strong> or <strong>Service Number</strong>. Just start typing to see matches.
 </p>
 
 <input type="text" size=40 id="ssInput" onkeyup="SimpleSearch()" placeholder="Search for names or service number...." style="width=100%;">
 <input type="submit" value="Reset" id="ssReset" onclick="SimpleSearchReset()">
+
+</div>
+
+<div id="searchbox" class="col">
+Search Helper settings<br/>
+Set by clicking [??] on a name<br/>
+<input type="text" disabled id="ssh_sn" placeholder="click [??]">
+<br/>
+<input type="text" disabled id="ssh_n1" placeholder="click [??]">
+<input type="text" disabled id="ssh_n2" placeholder="click [??]">
+<br/>
+ww2roll: <button disabled class="ssh_button" onclick="SSH_ww2roll_sn()">serv.number</button>
+<button disabled class="ssh_button" onclick="SSH_ww2roll_surname()">surname</button>
+<button disabled class="ssh_button" onclick="SSH_ww2roll_surname_plus()">surname+christian</button>
+<br/>
+<button onclick="SSH_info_clear()">clear helper</button>
+</div>
+
+</div>
+</div>
+
 <br>
 
 <hr>
