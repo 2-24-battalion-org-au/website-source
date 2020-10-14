@@ -1,6 +1,6 @@
 
 
-# 2/24 Battalion association committee 2017-18
+# 2/24 Battalion association committee 2020-21
 
 
 | Role                           | Holder |
