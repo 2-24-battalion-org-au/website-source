@@ -5,18 +5,19 @@
 
 | Role                           | Holder |
 | -----------------------------: | :----: |
-| President                      | Ian Holmes |
-| Vice President                 | |
+| President                      | Roland Nicholson|
+| Vice President                 | Janice Young
 | Secretary                      | Alastair Davison |
-| Treasurer                      | Roland Nicholson |
-| Assistant Treasurer            | Cameron Blackwood |
-| Assistant Secretary            | Janice Young |
+| Treasurer                      | Karen O'Shea |
 | Editor *Furphy Flyer in Mufti* | Alastair Davison |
-| Web Site                       | Alastair Davison |
-|                                | Cameron Blackwood |
-| Committee                      | Karen O'shea |
+| Web Site                       | Cameron Blackwood  |
+|                                | Alastair Davison |
+| Committee                      | Ian Holmes |
 |                                | Sandra Sharpe |
 |                                | Rod Wilson |
+|                                | Russell Edwards |
 | Adjunct Committee              | Mark Quinn |
 |                                | Greg Larkins |
+|                                | Chris Birchall |
 |                                | Julie Skalka |
+| One vacancy on the Committee |
