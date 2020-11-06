@@ -1,0 +1,6 @@
+*.csv text eol=crlf
+*.md text eol=crlf
+*.build text eol=crlf
+*.html text eol=crlf
+*.css text eol=crlf
+
