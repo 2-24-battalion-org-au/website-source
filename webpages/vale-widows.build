@@ -11,5 +11,6 @@ echo <hr>
 echo
 
 file  /vale_widows.csv
+.drop 1
 .format   * **{0}** {1} {2}
 .convert md

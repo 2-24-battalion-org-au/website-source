@@ -10,6 +10,7 @@ echo
 
 
 file  /vale.csv
+.drop 1
 .format    * **{0}** [*{1}*](/rolls/battalion-all.html?q={1})  {2}
 .convert  md
 
