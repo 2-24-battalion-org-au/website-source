@@ -14,20 +14,20 @@ del MONTHS3letter['May']
 
 SERVICE='EF NX QX SX TX VX WX'.split()
 
-GENOUT='generated_out'
+GENOUT='../pull.spreadsheets/pulled.spreadsheets'
 
 
-def get_latest(base='rolls.from.google'):
+def get_latest(base=GENOUT):
   for f in os.listdir(base):
     print('')
     print('')
     print('####',f)
     if f=='zsync.sh':
       pass
-    elif f.endswith('.csv') and f.endswith("Service Men.csv"):
+    elif f.endswith('.csv') and f.endswith("vale.csv"):
       Google_Soldiers(base+'/'+f)
       install(base,f,'../../webpages/vale.csv')
-    elif f.endswith('.csv') and f.endswith("Widows.csv"):
+    elif f.endswith('.csv') and f.endswith("vale_widows.csv"):
       Google_Widows(base+'/'+f)
       install(base,f,'../../webpages/vale_widows.csv')
     else:
@@ -48,7 +48,7 @@ class Google_Soldiers:
     if snum not in all224.DVA:
       notin.append('dva')
     if notin:
-      self.INFO("... not found in %7s : %s %s"%(','.join(notin),snum,sl))
+      self.INFO("vet not found in %7s : %s %s"%('+'.join(notin),snum,sl))
 
   def check_date(self,sl,sdate):
     if len(sdate)==1:
