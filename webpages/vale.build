@@ -6,6 +6,8 @@ file  /vale.md
 
 echo
 echo <hr>
+file  /vale_builddate.md
+echo <hr>
 echo
 
 

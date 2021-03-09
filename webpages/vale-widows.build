@@ -8,6 +8,8 @@ file  /vale_widows.md
 
 echo
 echo <hr>
+file  /vale_widows_builddate.md
+echo <hr>
 echo
 
 file  /vale_widows.csv
