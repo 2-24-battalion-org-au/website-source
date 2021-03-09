@@ -1,6 +1,8 @@
 *.ignore
-rolls/vale/tmp/
+rolls/vale/.old/
 rolls/vale/rolls.from.google/
+rolls/pull.spreadsheets/pulled.spreadsheets/
+rolls/pull.spreadsheets/lib/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
