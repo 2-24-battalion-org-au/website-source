@@ -1,6 +1,6 @@
 *.ignore
-rolls/vale.verify/.old/
-rolls/vale.verify/rolls.from.google/
+rolls/vale.verify.install/.old/
+rolls/vale.verify.install/rolls.from.google/
 rolls/pull.spreadsheets/pulled.spreadsheets/
 rolls/pull.spreadsheets/lib/
 webpages/vale_builddate.md
