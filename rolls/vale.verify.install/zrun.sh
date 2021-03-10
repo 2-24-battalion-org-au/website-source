@@ -21,9 +21,11 @@ for f in vale.csv vale_widows.csv
 do
   nf=`git status | grep modified | grep "$f" | cut -d: -f 2`
   if [ "$nf" != '' ]; then
-    echo "f=$f"
-    echo "nf=$nf"
+    echo "$f -> $nf"
+    echo "Detected changes for: $nf"
+    git log -1 "$nf"
     mods="$mods $nf"
+    echo ""
   fi
 done
 
@@ -44,16 +46,18 @@ echo "# vale: making build date"
 echo "#############################################"
 echo ""
 
-cd ../../webpages
+if [ "$mods" != "" ]; then
+  echo "git files changed... updating build date"
+  cd ../../webpages
 
-for f in vale vale_widows
-do
-  echo "writing date to $f"
-  echo "...${f}_builddate.md"
-  d=`git log -1 "$f.csv" | grep Date | cut -c6-`
-  echo "<b>last updated:</b> $d" > "${f}_builddate.md"
-done
-
+  for f in vale vale_widows
+  do
+    echo "writing date to $f"
+    echo "...${f}_builddate.md"
+    d=`git log -1 "$f.csv" | grep Date | cut -c6-`
+    echo "<b>last updated:</b> $d" > "${f}_builddate.md"
+  done
+fi
 
 
 echo ""
