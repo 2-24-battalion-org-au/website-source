@@ -50,7 +50,8 @@ for f in vale vale_widows
 do
   echo "writing date to $f"
   echo "...${f}_builddate.md"
-  git log -1 "$f.csv" | grep Date | cut -c6- > "${f}_builddate.md"
+  d=`git log -1 "$f.csv" | grep Date | cut -c6-`
+  echo "<b>last updated:</b> $d" > "${f}_builddate.md"
 done
 
 
