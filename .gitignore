@@ -1,8 +1,10 @@
 *.ignore
-rolls/vale/.old/
-rolls/vale/rolls.from.google/
+rolls/vale.verify/.old/
+rolls/vale.verify/rolls.from.google/
 rolls/pull.spreadsheets/pulled.spreadsheets/
 rolls/pull.spreadsheets/lib/
+webpages/vale_builddate.md
+webpages/vale_widows_builddate.md
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
