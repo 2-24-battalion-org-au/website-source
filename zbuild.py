@@ -25,6 +25,8 @@ toolkit.setting('title','2-24th Battalion Association')
 toolkit.setting('keywords',"Tobruk, 2nd AIF, Tel El Eisa, El Alamein, Rats of Tobruk, World War 2, ANZAC, Australian Army, 9th Division, Salient, Halfaya Pass, Tarakan, New Guinea, Finschhafen, Lae, Wangaratta's Own")
 
 
+
+ht.precopy('/.build.txt')
 ht.website_info('/whoami.txt',"i am generated via cam's magic and stored on appengine")
 
 ht.precopy('/CNAME')
