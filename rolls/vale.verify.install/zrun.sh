@@ -29,11 +29,13 @@ do
   fi
 done
 
-if [ "$mods" != "" ]; then
+#if [ "$mods" != "" ]; then
+if [ "$mods" == "" ]; then
   echo "git files changed: $mods"
   git pull
   git add $mods
-  git commit -m 'vale roles updated from googlesheet' $mods
+  d=`date`
+  git commit -m "vale roles updated from googlesheet: $d" $mods
   git push
 else
   echo "git files NOT changed: skipping"
