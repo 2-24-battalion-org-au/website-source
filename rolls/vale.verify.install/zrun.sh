@@ -29,8 +29,7 @@ do
   fi
 done
 
-#if [ "$mods" != "" ]; then
-if [ "$mods" == "" ]; then
+if [ "$mods" != "" ]; then
   echo "git files changed: $mods"
   git pull
   git add $mods
