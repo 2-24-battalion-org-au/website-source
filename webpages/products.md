@@ -24,7 +24,7 @@ orders@2-24.battalion.org.au (post a cheque or complete a bank transfer - see be
 ---
 ## **Both Sides of the Hill** by Everard Baillieu 
 The story of the capture of Company 621 German Radio Intercept at Tel el Eisa<br>
-![Both Sides of the Hill] (images/product/Both-Sides.jpg)
+![Both Sides of the Hill] (images/product/Both Sides.jpg)
 ## **Shooting Through - Katrina Kittel** -- $tba 
 ![Shooting Through](images/product/shoot-r.jpg)
 
