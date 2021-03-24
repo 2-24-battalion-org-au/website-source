@@ -18,7 +18,7 @@ orders@2-24.battalion.org.au (post a cheque or complete a bank transfer - see be
 * Prices include postage within Australia.
 
 --
-## **Official History of 2/24 Australian Infantry Battalion** -- Members Price $48; Retail $56 
+## **Official History of 2/24 Australian Infantry Battalion** -- Members Price $48; Retail $54 
 ![Battalion History](images/product/Hist-book-r.jpg)
 
 
@@ -28,7 +28,7 @@ The story of the capture of Company 621 German Radio Intercept at Tel el Eisa<br
 ![Both Sides of the Hill] (images/product/Both Sides.jpg)
 
 ---
-## **Shooting Through - Katrina Kittel** -- $tba 
+## **Shooting Through - Katrina Kittel** -- $35 
 ![Shooting Through](images/product/shoot-r.jpg)
 
 
@@ -39,8 +39,6 @@ The story of the capture of Company 621 German Radio Intercept at Tel el Eisa<br
 
 
 ---
-
-
 
 ## **Battalion Tie** -- $25.00 each (association members only)
 
