@@ -17,14 +17,14 @@ orders@2-24.battalion.org.au (post a cheque or complete a bank transfer - see be
 * Prices include postage within Australia.
 
 --
-## **Official History of 2/24 Australian Infantry Battalion** Members Price $48
+## **Official History of 2/24 Australian Infantry Battalion** -- Members Price $48
 ![Battalion History](images/product/book-r.jpg)
 
 
 ---
 ## **Both Sides of the Hill** by Everard Baillieu 
 The story of the capture of Company 621 German Radio Intercept at Tel el Eisa
-![Both Sides of the Hill]
+![Both Sides of the Hill] (images/product/Both Sides.jpg)
 ## **Shooting Through - Katrina Kittel** -- $tba 
 ![Shooting Through](images/product/shoot-r.jpg)
 
