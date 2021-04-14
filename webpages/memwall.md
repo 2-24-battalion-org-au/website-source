@@ -20,7 +20,7 @@ Immediately on the right is the bluestone Memorial Wall with gumtree sentinels. 
 **The Memorial Wall** consists of two bluestone walls abutting a centre bluestone column with the Honour Roll of the men of the 2/24th who died on active service, along with individual plaques of the Battalion Commanders. Over 250 other individual plaques dedicated to servicemen who have died since the War are mounted on the bluestone walls.
 
 Families of 2/24th who wish to have a plaque honouring their serviceman should contact the Secretary of the 2/24 Battalion Association to request an application form. Contact details are
-Mail: Secretary, 2/24 Battalion Association, PO Box 5236, Burnley, Vic 3121
+Mail: Secretary, 2/24 Battalion Association, 503/2 Barnet Way, Richmond, Vic 3121
 Email: secretary@2-24.battalion.org.au
 The cost of a plaque is $88 inc GST. Plaques are inscribed and mounted by the local stonemasons, Wright and Sons of Wangaratta.
 
@@ -33,4 +33,5 @@ The cost of a plaque is $88 inc GST. Plaques are inscribed and mounted by the lo
   * The Marble Panels above the Honour Roll were unveiled on 5 November 2011 by the Mayor of Wangaratta, Cr Anthony Griffiths and President of 2/24 Association, Doug Dobson, and dedicated by Association Secretary, Alastair Davison.
   * The Drinking Fountain in the gazebo was donated by the Weir Family and dedicated by the Very Rev Michael O'Brien on 10 November 2012. The entrance road was named 2/24 Battalion Drive in 2012.
   * The Bench Seat facing the Wall from across the drive was donated by Hautrie Crick in memory of his Tobruk mates. It was unveiled and dedicated on 9 November 2013.
+  * Memorial Gates named as Alan Macfarlane Gates, and unveiled on 24 April 2021 by Faye Macfarlane and Isabel Dunstan OAM. 
 
