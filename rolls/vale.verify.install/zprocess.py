@@ -24,12 +24,15 @@ def get_latest(base=GENOUT):
     print('####',f)
     if f=='zsync.sh':
       pass
-    elif f.endswith('.csv') and f.endswith("vale.csv"):
-      Google_Soldiers(base+'/'+f)
-      install(base,f,'../../webpages/vale.csv')
-    elif f.endswith('.csv') and f.endswith("vale_widows.csv"):
-      Google_Widows(base+'/'+f)
-      install(base,f,'../../webpages/vale_widows.csv')
+    elif f.endswith('.csv'):
+      if f=="members.csv":
+        pass
+      elif f=="vale.csv":
+        Google_Soldiers(base+'/'+f)
+        install(base,f,'../../webpages/vale.csv')
+      elif f.endswith("vale_widows.csv"):
+        Google_Widows(base+'/'+f)
+        install(base,f,'../../webpages/vale_widows.csv')
     else:
       print("ERROR: dont know how to deal with this file",f)
       raise Exception
@@ -86,35 +89,34 @@ class Google_Soldiers:
     self.pyr=None
     self.pdate=None
     with open(f) as fileread:
-      for l in fileread:
-        l=l.rstrip()
+      csvreader=csv.reader(fileread)
+      for l in csvreader:
         self.rows.append( self.process_excel( l ) )
 
   def process_excel(self,l):
     snum=None
-    sl=l.split(',')
-    if l==',,':
+    if l==['','','']:
       pass
-    elif l.startswith('>##WARNING'):
+    elif l[0].startswith('>##WARNING'):
       pass
-    elif l.startswith('>## '):
-      nyr=int(sl[0][-4:])
+    elif l[0].startswith('>## '):
+      nyr=int(l[0][-4:])
       if self.pyr and nyr>=self.pyr:
-        self.ERROR('year out of order',sl,nyr,self.pyr)
+        self.ERROR('year out of order',l,nyr,self.pyr)
       self.pyr=nyr
       self.pdate=datetime.date(self.pyr,12,31)
     else:
-      date=sl[2]
-      snum=sl[1]
-      name=sl[0]
-      ndatetxt=self.check_date(sl,date.split())
+      date=l[2]
+      snum=l[1]
+      name=l[0]
+      ndatetxt=self.check_date(l,date.split())
       if len(ndatetxt)==3: ndate=datetime.date(int(ndatetxt[-1]),1+MONTHS.index(ndatetxt[-2]),int(ndatetxt[-3]))
       elif len(ndatetxt)==2: ndate=datetime.date(int(ndatetxt[-1]),1+MONTHS.index(ndatetxt[-2]),1)
       elif len(ndatetxt)==1: ndate=datetime.date(int(ndatetxt[-1]),1,1)
       else: self.ERROR('cant parse date')
-      if self.pdate and ndate>self.pdate: self.WARN('dates out of order',sl)
+      if self.pdate and ndate>self.pdate: self.WARN('dates out of order',l)
       self.pdate=ndate
-      self.check_servicenum(sl,snum)
+      self.check_servicenum(l,snum)
 
 
 
@@ -142,36 +144,36 @@ class Google_Widows(Google_Soldiers):
 
   def process_excel(self,l):
     snum=None
-    sl=l.split(',')
-    if l==',,':
+    print("Processing",[l])
+    if l==['','','']:
       pass
-    elif l.startswith('>##WARNING'):
+    elif l[0].startswith('>##WARNING'):
       pass
-    elif l.startswith('>## '):
-      nyr=int(sl[0][-4:])
+    elif l[0].startswith('>## '):
+      nyr=int(l[0][-4:])
       if self.pyr and nyr>=self.pyr:
-        self.ERROR('year out of order',sl,nyr,self.pyr)
+        self.ERROR('year out of order',l,nyr,self.pyr)
       self.pyr=nyr
       self.pdate=datetime.date(self.pyr,12,31)
     else:
-      date=sl[2]
-      vet=sl[1]
+      date=l[2]
+      vet=l[1]
       if vet.startswith('[') and vet.endswith(']'):
         pass
       else:
-        self.ERROR('no [] in vet name',sl)
-      name=sl[0]
+        self.ERROR('no [] in vet name',l)
+      name=l[0]
 
       snum=vet[1:-1].split()[-1]
-      ndatetxt=self.check_date(sl,date.split())
+      ndatetxt=self.check_date(l,date.split())
       if len(ndatetxt)==3: ndate=datetime.date(int(ndatetxt[-1]),1+MONTHS.index(ndatetxt[-2]),int(ndatetxt[-3]))
       elif len(ndatetxt)==2: ndate=datetime.date(int(ndatetxt[-1]),1+MONTHS.index(ndatetxt[-2]),1)
       elif len(ndatetxt)==1: ndate=datetime.date(int(ndatetxt[-1]),1,1)
       else: self.ERROR('cant parse date')
-      if self.pdate and ndate>self.pdate: self.WARN('dates out of order',sl)
+      if self.pdate and ndate>self.pdate: self.WARN('dates out of order',l)
 
       self.pdate=ndate
-      self.check_servicenum(sl,snum)
+      self.check_servicenum(l,snum)
 
 
 
