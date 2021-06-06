@@ -13,6 +13,7 @@ class GSsheet:
     self.file=file
     print('# opening sheet',name)
     self.gsheet=self.file.gfile.worksheet(name)
+    print('# opening sheet done',name,self.gsheet)
   def save2csv(self,fn):
     all=self.gsheet.get_all_values()
     print('# saving sheet',self.name,fn)
@@ -26,8 +27,12 @@ class GSfile:
   def __init__(self,name):
     print('# connecting to api')
     self.gapi=gspread.service_account(filename=common.SECRET)
-    print('# opening file',name)
-    self.gfile=self.gapi.open(name)
+    try:
+      print('# opening file by name',name)
+      self.gfile=self.gapi.open(name)
+    except:
+      print('# opening file by key',name)
+      self.gfile=self.gapi.open_by_key(name)
   def sheet(self,name):
     return GSsheet(self,name)
 
