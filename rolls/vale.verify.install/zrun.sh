@@ -23,7 +23,7 @@ do
   if [ "$nf" != '' ]; then
     echo "$f -> $nf"
     echo "Detected changes for: $nf"
-    git log -1 "$nf"
+    git log -1 -- "$nf"
     mods="$mods $nf"
     echo ""
   fi
