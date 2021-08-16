@@ -144,6 +144,7 @@ class Google_Widows(Google_Soldiers):
 
   def process_excel(self,l):
     snum=None
+    l=[ s.strip() for s in l ]
     print("Processing",[l])
     if l==['','','']:
       pass
