@@ -36,12 +36,6 @@ The story of the capture of Company 621 German Radio Intercept at Tel el Eisa<br
 
 
 ---
-## **Pens with logo of 2/24 Australian Infantry Battalion** -- $20.00 per set of 5
-
-![Pen](images/product/pen.jpg)
-
-
----
 
 ## **Battalion Tie** -- $25.00 each (association members only)
 
@@ -55,7 +49,7 @@ For purchase by 2/24 Association members only.
 
 ## **Lapel Badge** [1.5cm wide] -- $10.00 each (association members only)
 
-For purchase by 2/24 Association members only.
+For purchase by 2/24 Association members only. Temporarily Out of Stock [Oct 2021]
 
 ![Lapel Badge](images/product/badge-r.jpg)
 
