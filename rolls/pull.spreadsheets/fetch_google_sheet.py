@@ -18,7 +18,7 @@ class GSsheet:
     all=self.gsheet.get_all_values()
     print('# saving sheet',self.name,fn)
     with open(fn,'w') as cfile:
-      cw=csv.writer(cfile,quoting=csv.QUOTE_MINIMAL)
+      cw=csv.writer(cfile,quoting=csv.QUOTE_MINIMAL,lineterminator='\n')
       for i in all:
         cw.writerow(i)
     print('# saved')
