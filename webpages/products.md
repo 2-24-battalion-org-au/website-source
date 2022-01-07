@@ -27,7 +27,7 @@ orders@2-24.battalion.org.au (post a cheque or complete a bank transfer - see be
 ## **Both Sides of the Hill** - Everard Baillieu -- $10
 The story of the capture of Company 621 German Radio Intercept at Tel el Eisa<br>
 
-![Both Sides of the Hill](images/product/Both sides-r.jpg)
+![Both Sides of the Hill](images/product/Both-sides.jpg)
 
 ---
 ## **Shooting Through** - Katrina Kittel -- $35 
