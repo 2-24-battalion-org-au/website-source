@@ -20,10 +20,12 @@ Immediately on the right is the bluestone Memorial Wall with gumtree sentinels. 
 **The Memorial Wall** consists a centre bluestone column with the Honour Roll of the men of the 2/24th who died on active service; abutted on each side by individual plaques of the Battalion Commanders. Over 250 other individual plaques, dedicated to servicemen who have died since the War, are mounted on the bluestone walls. The plaques are inscribed and mounted by the local stonemasons, Wright Memorials of Wangaratta.
 
 
-Families of 2/24th who wish to have a plaque honouring their serviceman should contact the Secretary of the 2/24 Battalion Association to request an application form. Contact details are 
+Families of 2/24th who wish to have a plaque honouring their serviceman should contact the Secretary of the 2/24 Battalion Association to request an application form. Contact details are
 
 Mail: Secretary, 2/24 Battalion Association, 503/2 Barnet Way, Richmond, Vic 3121 
+
 Email: secretary@2-24.battalion.org.au 
+
 The cost of a plaque is $88 inc GST. Details of payment are on the Application Form.
 
 ## Timeline of the Precinct
