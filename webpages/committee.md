@@ -1,9 +1,7 @@
 
 
-# 2/24 Battalion association committee 2020-21
+# 2/24 Battalion association committee 2021-22
 
-
-| Role                           | Holder |
 | -----------------------------: | :----: |
 | President                      | Roland Nicholson|
 | Vice President                 | Janice Young
@@ -11,7 +9,7 @@
 | Treasurer                      | Karen O'Shea |
 | Committee                      | Sandra Sharpe |
 |                                | Cameron Blackwood |
-|                                I Alastair Davison |
+|                                | Alastair Davison |
 |                                | Rod Wilson |
 |                                | Russell Edwards |
 |                                | Maurice Bennett |
