@@ -23,11 +23,8 @@ Immediately on the right is the bluestone Memorial Wall with gumtree sentinels. 
 Families of 2/24th who wish to have a plaque honouring their serviceman should contact the Secretary of the 2/24 Battalion Association to request an application form. Contact details are 
 
 Mail: Secretary, 2/24 Battalion Association, 503/2 Barnet Way, Richmond, Vic 3121 
-
 Email: secretary@2-24.battalion.org.au 
-
 The cost of a plaque is $88 inc GST. Details of payment are on the Application Form.
-
 
 ## Timeline of the Precinct
   * The trees were planted on 29 May 1993.
