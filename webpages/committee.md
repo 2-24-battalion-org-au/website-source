@@ -1,7 +1,7 @@
 
 
 # 2/24 Battalion association committee 2021-22
-||
+|                                |        |
 | -----------------------------: | :----: |
 | President                      | Roland Nicholson|
 | Vice President                 | Janice Young
