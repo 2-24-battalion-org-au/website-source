@@ -1,6 +1,9 @@
+import os
 import fetch_google_sheet
 
 OUT='pulled.spreadsheets'
+
+if not os.path.exists(OUT): os.mkdir(OUT)
 
 gf=fetch_google_sheet.GSfile("Master Vale Roll")
 gf.sheet('Service Men').save2csv(OUT+'/vale.csv')

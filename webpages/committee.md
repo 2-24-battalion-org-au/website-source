@@ -1,23 +1,19 @@
 
 
-# 2/24 Battalion association committee 2020-21
-
-
-| Role                           | Holder |
+# 2/24 Battalion association committee 2021-22
+|                                |        |
 | -----------------------------: | :----: |
 | President                      | Roland Nicholson|
 | Vice President                 | Janice Young
-| Secretary                      | Alastair Davison |
+| Secretary                      | vacant|
 | Treasurer                      | Karen O'Shea |
+| Committee                      | Sandra Sharpe |
+|                                | Cameron Blackwood |
+|                                | Alastair Davison |
+|                                | Rod Wilson |
+|                                | Russell Edwards |
+|                                | Maurice Bennett |
+|                                | vacancy |
 | Editor *Furphy Flyer in Mufti* | Alastair Davison |
 | Web Site                       | Cameron Blackwood  |
 |                                | Alastair Davison |
-| Committee                      | Ian Holmes |
-|                                | Sandra Sharpe |
-|                                | Rod Wilson |
-|                                | Russell Edwards |
-| Adjunct Committee              | Mark Quinn |
-|                                | Greg Larkins |
-|                                | Chris Birchall |
-|                                | Julie Skalka |
-| One vacancy on the Committee |

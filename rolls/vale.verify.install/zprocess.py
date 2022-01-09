@@ -65,9 +65,12 @@ class Google_Soldiers:
     if sdate[-2] not in MONTHS:
       self.ERROR("!!! BAD!!! Month error",sl)
     if len(sdate)==2:
-      self.WARN(". Month+Year only",sl)
-      int(sdate[-1])
-      return sdate
+      if sdate[1][-4:].isnumeric() and sdate[1][:-4] in MONTHS:
+        sdate=[ sdate[0], sdate[1][:-4], sdate[1][-4:] ]
+      else:
+        self.WARN(". Month+Year only",sl)
+        int(sdate[-1])
+        return sdate
     if len(sdate)==3:
       int(sdate[0])
       int(sdate[-1])

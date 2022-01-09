@@ -6,9 +6,9 @@ The following items may be purchased from the 2/24 Battalion Association.<br>
 
 ## Order and Payment methods
 1.	Post a cheque or money order made out to '2/24 Battalion Association' to accompany the order to <br>
- Merchandise - 2/24th Battalion Assoc.,
- 19 Maree Court,
- Rowville, Vic  3178
+ Mrs K O’Shea – 2/24 Orders
+	4 Dudley Street
+ Essendon North, Vic   3041
 2.	Electronic Orders - send an email (with details of order and recipient address) to <br>
 orders@2-24.battalion.org.au (post a cheque or complete a bank transfer - see below)<br>
  By bank transfer to: Account Name - The Australian Infantry Battalion Association, Inc. <br>
@@ -20,7 +20,7 @@ orders@2-24.battalion.org.au (post a cheque or complete a bank transfer - see be
 --
 ## **Official History of 2/24 Australian Infantry Battalion** -- Members Price $48; Retail $54 
 
-![Battalion History](images/product/Hist-book-r.jpg)
+![Battalion History](images/product/history-r.jpg)
 
 
 ---
@@ -33,12 +33,6 @@ The story of the capture of Company 621 German Radio Intercept at Tel el Eisa<br
 ## **Shooting Through** - Katrina Kittel -- $35 
 
 ![Shooting Through](images/product/shoot-r.jpg)
-
-
----
-## **Pens with logo of 2/24 Australian Infantry Battalion** -- $20.00 per set of 5
-
-![Pen](images/product/pen.jpg)
 
 
 ---
@@ -55,7 +49,7 @@ For purchase by 2/24 Association members only.
 
 ## **Lapel Badge** [1.5cm wide] -- $10.00 each (association members only)
 
-For purchase by 2/24 Association members only.
+For purchase by 2/24 Association members only. Temporarily Out of Stock [Oct 2021]
 
 ![Lapel Badge](images/product/badge-r.jpg)
 
