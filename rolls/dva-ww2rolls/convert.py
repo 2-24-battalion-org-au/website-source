@@ -1,6 +1,6 @@
 import csv
 
-CSVDIR='../webpages/rolls/'
+CSVDIR='../../webpages/rolls/'
 
 ## put battalion all first!!
 CONVERT=[ ( 'battalion-all', 2 ),
