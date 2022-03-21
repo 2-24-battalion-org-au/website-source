@@ -76,3 +76,8 @@ class GSfile:
     self.gfile.del_worksheet(sheet)
   def all_sheets(self):
     return self.gfile.worksheets()
+  def all_sheets_return(self):
+    rv=[]
+    for w in self.all_sheets():
+      rv.append( GSsheet(self,w) )
+    return rv
