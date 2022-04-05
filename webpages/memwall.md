@@ -10,7 +10,7 @@ Immediately on the right is the bluestone Memorial Wall with gumtree sentinels. 
 ">
   <img class="card-img-top" src="memwall/24_trees.jpg" alt="trees near the memorial wall">
   <div class="card-body">
-    <h5 class="card-title">2/24th Memorials</h5>
+    <h5 class="card-title">The 2/24th Memorial Wall at Wangaratta</h5>
     <p class="card-text">
     </p>
    </div> <!-- end cardbody -->
