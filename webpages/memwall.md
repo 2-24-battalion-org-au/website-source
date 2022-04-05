@@ -12,10 +12,10 @@ Immediately on the right is the bluestone Memorial Wall with gumtree sentinels. 
   <div class="card-body">
     <h5 class="card-title">The 2/24th Memorial Wall at Wangaratta</h5>
     <p class="card-text">
+    <p> <p>
     </p>
    </div> <!-- end cardbody -->
 </div>
-
 
 **The Memorial Wall** consists a centre bluestone column with the Honour Roll of the men of the 2/24th who died on active service; abutted on each side by individual plaques of the Battalion Commanders. Over 250 other individual plaques, dedicated to servicemen who have died since the War, are mounted on the bluestone walls. The plaques are inscribed and mounted by the local stonemasons, E J Wright and Sons Memorials of Wangaratta.
 
@@ -31,7 +31,7 @@ The cost of a plaque is $88 inc GST. Details of payment are on the Application F
   * The trees were planted on 29 May 1993.
   * The avenue of trees was dedicated at a Service held on 23 November 1993.
   * The Timeline Plaque opposite the Wall was unveiled by Mayor of Wangaratta, Cr Ray Lawford, on 23 October 1993.
-  * The Memorial Wall was unveiled on 8 November 1997 by the Mayor of Wangaratta, Cr Geoff Dinning and 2/24 President, Alan Macfarlane, and dedication by Robin Mitchell VX67518.
+  * The Memorial Wall was unveiled on 8 November 1997 by the Mayor of Wangaratta, Cr Geoff Dinning and 2/24 President, Alan Macfarlane, and dedicated by Robin Mitchell VX67518.
   * The Bluestone Piers and Gates were unveiled on 10 November 2007 by Mayor of Wangaratta, Cr Don Joyce, and President of 2/24 Battalion Association, Alan Macfarlane, and dedicated by The Right Rev David Farrer, the Bishop of Wangaratta.
   * The Marble Panels above the Honour Roll were unveiled on 5 November 2011 by the Mayor of Wangaratta, Cr Anthony Griffiths and President of 2/24 Association, Doug Dobson, and dedicated by Association Secretary, Alastair Davison.
   * The Drinking Fountain in the gazebo was donated by the Weir Family and dedicated by the Very Rev Michael O'Brien on 10 November 2012. The entrance road was named 2/24 Battalion Drive in 2012.
