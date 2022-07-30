@@ -2,13 +2,11 @@
 
 #  2/24th Items for sale
 
-The following items may be purchased from the 2/24 Battalion Association.<br>
+The items below may be purchased from the 2/24 Battalion Association.<br>
 
 ## Order and Payment methods
 1.	Post a cheque or money order made out to '2/24 Battalion Association' to accompany the order to <br>
- Mrs K O’Shea – 2/24 Orders
-	4 Dudley Street
- Essendon North, Vic   3041
+ Mr R Nicholson, 34 Jamescott Drive, Drouin Vic  3188
 2.	Electronic Orders - send an email (with details of order and recipient address) to <br>
 orders@2-24.battalion.org.au (post a cheque or complete a bank transfer - see below)<br>
  By bank transfer to: Account Name - The Australian Infantry Battalion Association, Inc. <br>
