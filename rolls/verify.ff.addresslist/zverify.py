@@ -1,21 +1,40 @@
 import sys
 import csv
 
+
+
+
 class Labels:
+  def endswithpostcode(self,l):
+    if l.startswith('P O Box'): return False
+    if l.startswith('RMB'): return False
+    try:
+      for i in range(-4,0):
+        if l[i] not in '0123456789': return False
+      return True
+    except:
+      return False
   def __init__(self,f):
     self.post=[]
     a=[]
     for l in open(f):
       l=l.strip()
       if l:
+        if self.endswithpostcode(l) and l!=l.upper():
+          print("uppercase postcode",[a,l])
+          l=l.upper()
         a.append( ' '.join(l.split()) )
-        if l==l.upper() and not l.startswith('RMB'):
+        print('loadl',l)
+        #if l==l.upper() and not l.startswith('RMB'):
+        if self.endswithpostcode(l):
           if a in self.post:
             print('DUPLICATE.post',a)
           else:
             self.post.append( a )
+          print('>>>>>>>>>>>>>>>>>>>>>>>>>       ',a)
           a=[]
     self.post.sort()
+    print("Loaded lables",len(self.post))
 
 # ['SURNAME', 'Title', 'FIRST NAME', 'PAID TO END', 'RECEIPT DETAIL', 'STATUS', 'LM', "Start M'ship", "Cease M'ship", 'Reason', 'Address 1', 'ADDRESS 2', 'TOWN', 'PCODE', 'EMAIL ADDRESS', 'POST', 'Service No', 'EMAIL', 'M/STAT', 'ARMY NO', 'PHONE', 'UPDATED', 'KNOWN AS', 'NOTES', 'RELATIONSHIP']
 
@@ -31,13 +50,13 @@ class DB:
       for l in r:
         postraw=  [ 'post?==',l[h.index('post')], 'email==',l[h.index('email')].lower() ]
         post=  l[h.index('post')]=='TRUE' and l[h.index('email')].lower()!='yes'
-        print('db.raw',l,post,postraw)
+#        print('db.raw',l,post,postraw)
 #      if l[h.index('post')]=='TRUE' and l[h.index('email')].lower()!='yes':
         a=[]
         for keys in [ ['title','surname'],['address 1'],['address 2'],['town','pcode'] ]:
           aline= ' '.join( [ l[h.index(k)] for k in keys ] )
           if aline: a.append( ' '.join(aline.split()))
-        print('dbpa',a)
+#        print('dbpa',a)
         self.all.append(a)
         if post:
           if post:
@@ -52,7 +71,7 @@ class DB:
     postd=self.post[:]
     #
     for a in postl[:]:
-      print('CHECK',a,a in postd)
+      print('CHECK postlabel',a,a in postd)
       if a in postd:
         print('# OK',a)
         postl.remove(a)
@@ -60,20 +79,20 @@ class DB:
     #
     for a in postd:
       m='dont know'
-      print('ERR: only in .db.',[ l for l in a ])
+      print(    'ERR: only in .db.           ',[ l for l in a ])
       for b in postl:
         if a[0]==b[0]:
-          print('  ??possible label address??',b)
+          print('  ??possible label address??',b,a==b)
       print('')
 
     #
     for a in postl:
       m='UNKNOWN'
       if a in self.all: m='DB says dont post?'
-      print('ERR: only in post',[ l for l in a ],m)
+      print(    'ERR: only in post        ',[ l for l in a ],m)
       for b in postd:
         if a[0]==b[0]:
-          print('  ??possible db address??',b)
+          print('  ??possible db address??',b,a==b)
       print('')
 
 
