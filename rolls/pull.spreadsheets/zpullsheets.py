@@ -1,4 +1,7 @@
+
 import os
+import json
+
 import fetch_google_sheet
 
 OUT='pulled.spreadsheets'
@@ -11,23 +14,22 @@ SHEETIDS={
   'member.master':'1nxXu3njSVJIg_Mve71OszVab0uj3FZsT9qCPCN8uJpI',
   }
 
+TOC={}
 
-#gf=fetch_google_sheet.GSfile("Master Vale Roll")
-name='vale.master'
-id=SHEETIDS[name]
-gf=fetch_google_sheet.GSfile(id)
-gf.sheet('Service Men').save2csv(f'{OUT}/vale.csv')
-gf.sheet('Widows').save2csv(f'{OUT}/vale_widows.csv')
+for id in SHEETIDS.values():
+  gf=fetch_google_sheet.GSfile(id)
+  sn=0
+  TOC[ f'{id}' ]=gf.name
+  print(f"Loading: {id} == {gf.name}")
+  for w in gf.all_sheets_return():
+    sn+=1
+    print(f"  Saving: {sn} {w.name} == {OUT}/{id}--{sn}" )
+    w.save2csv(f"{OUT}/{id}--{sn:03d}.csv")
+    TOC[ f'{id}--{sn:03d}' ]=w.name
 
-#gf=fetch_google_sheet.GSfile("1gb1b9t2BEtLT_NIpXwWuzKlkwf0ET_ECOypadWlqJTc")
-#gf.sheet('2021').save2csv(OUT+'/members.csv')
 
-print('')
-print('')
-print('')
-print("### pulling sheets...")
-name='member.master'
-id=SHEETIDS[name]
-gf=fetch_google_sheet.GSfile(id)
-for w in gf.all_sheets_return():
-  w.save2csv(f"{OUT}/master-battalion-roll--{w.name}.csv")
+#for k in sorted(TOC):
+#  print(k,'=human=',TOC[k])
+
+open(f'{OUT}/_toc_.json','w').write( json.dumps(TOC,sort_keys=True,indent=2)+'\n' )
+
