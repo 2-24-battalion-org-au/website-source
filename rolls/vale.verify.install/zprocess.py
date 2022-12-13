@@ -3,6 +3,7 @@ import os
 import csv
 import datetime
 import shutil
+import json
 
 
 import all224
@@ -18,24 +19,29 @@ GENOUT='../pull.spreadsheets/pulled.spreadsheets'
 
 
 def get_latest(base=GENOUT):
+  toc=json.load(open(base+'/_toc_.json'))
+  print('loaded toc',toc)
   for f in os.listdir(base):
+    if not f.endswith('.csv'): continue
+    if f not in toc:
+      print(f"SKIPPING unknown: {f}")
+      continue
     print('')
+    print(f'####  {f}')
+    metasheetname=toc[ f.split('--')[0] ]
+    print(f'####  {metasheetname} /// {toc[f]}')
     print('')
-    print('####',f)
-    if f=='zsync.sh':
-      pass
-    elif f.endswith('.csv'):
-      if f=="members.csv":
-        pass
-      elif f=="vale.csv":
-        Google_Soldiers(base+'/'+f)
-        install(base,f,'../../webpages/vale.csv')
-      elif f.endswith("vale_widows.csv"):
-        Google_Widows(base+'/'+f)
-        install(base,f,'../../webpages/vale_widows.csv')
+    if f not in toc: raise Exception()
+    if toc[f]=='Service Men':
+      Google_Soldiers(base+'/'+f)
+      install(base,f,'../../webpages/vale.csv')
+    elif toc[f]=='Widows':
+      Google_Widows(base+'/'+f)
+      install(base,f,'../../webpages/vale_widows.csv')
     else:
-      print("ERROR: dont know how to deal with this file",f)
-      raise Exception
+      print(f"SKIPPING SHEET: {f} == {metasheetname} /// {toc[f]}")
+    print('')
+    print('')
 
 def install(srcd,fn,dstpath):
   print('>>>>> install  "%s/%s" %s'%(srcd,fn,dstpath))

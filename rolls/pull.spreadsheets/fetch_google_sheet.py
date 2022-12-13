@@ -1,5 +1,7 @@
 import csv
 
+from io import StringIO
+
 import sys,os
 libpath=os.path.join( os.path.dirname(os.path.abspath(__file__)), 'lib' )
 sys.path.append(libpath)
@@ -49,12 +51,19 @@ class GSsheet:
     return self.gsheet.get_all_values()
   def save2csv(self,fn):
     all=self.fetch2csv()
-    print(f'#     saving:   {self.name}')
-    with open(fn,'w') as cfile:
-      cw=csv.writer(cfile,quoting=csv.QUOTE_MINIMAL,lineterminator='\n')
-      for i in all:
-        cw.writerow(i)
-    print(f'#   saved to:   {fn}')
+    oldf=None
+    if os.path.exists(fn): oldf=open(fn).read()
+    fake=StringIO()
+    cw=csv.writer(fake,quoting=csv.QUOTE_MINIMAL,lineterminator='\n')
+    for i in all:
+      cw.writerow(i)
+    newf=fake.getvalue()
+    if newf==oldf:
+      print(f'#            unchanged:   {self.file.name} /// {self.name}')
+    else:
+      open(fn,'w').write(newf)
+      print(f'#   !!!!!!!!!  changed:  {self.file.name} /// {self.name}')
+      print(f'#                        saved to file:  {fn}')
 
 class GSfile:
   def __init__(self,name):
@@ -66,7 +75,8 @@ class GSfile:
     except:
       self.gfile=self.gapi.open(name)
       print(f'#  opened file by name')
-    print(  f"#  sheet.title: {self.gfile.title}")
+    self.name=self.gfile.title
+    print(  f"#  sheet.title: {self.name}")
   def sheet(self,name):
     gsheet=self.gfile.worksheet(name)
     return GSsheet(self,gsheet)
