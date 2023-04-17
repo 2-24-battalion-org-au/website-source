@@ -4,8 +4,8 @@
 |                                |        |
 | -----------------------------: | :----: |
 | President                      | Roland Nicholson|
-| Vice President                 | Janice Young
-| Secretary                      | vacant|
+| Vice President                 | Janice Young |
+| Secretary                      | *vacant* |
 | Treasurer                      | Karen O'Shea |
 | Committee                      | Sandra Sharpe |
 |                                | Cameron Blackwood |
@@ -13,7 +13,7 @@
 |                                | Rod Wilson |
 |                                | Russell Edwards |
 |                                | Maurice Bennett |
-|                                | vacancy |
+|                                | Piet Van hooydonk |
 | Editor *Furphy Flyer in Mufti* | Alastair Davison |
 | Web Site                       | Cameron Blackwood  |
 |                                | Alastair Davison |

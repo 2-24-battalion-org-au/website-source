@@ -3,24 +3,33 @@
 .eventlist
 
 
+
+event            Association AGM
+.date            2022/10/10
+.image           /image.cardheaders/anzac.jpg
+.time            Check Furphy Flyer for exact details
+.location        Online
+.disable
+
+
 event            Anzac day March
-.date            2020/4/25
+.date            2023/4/25
 .image           /image.cardheaders/anzac.jpg
 .time            Check Furphy Flyer for exact details
 .location        Check Furphy Flyer
 .location.maps   Flinders St, Melbourne, Australia
-.disable
+#.disable
 
 event            Anzac Reunion Lunch
-.date            2020/4/25
+.date            2023/4/25
 .image           /image.cardheaders/anzac.jpg
 .time            12:00pm-2:00pm
 .location        Pascoe Vale RSL
 .location.maps   40 Cumberland Rd, Pascoe Vale VIC 3044, Australia
-.disable
+#.disable
 
 event            Battalion Birthday Lunch
-.date            2020/7
+.date            2023/7
 .image           /image.cardheaders/birthday.jpg
 .time            12:00pm-2:00pm
 .location        Pascoe Vale RSL
@@ -28,26 +37,27 @@ event            Battalion Birthday Lunch
 .disable
 
 event            2/24th Shrine Pilgrimage Service
-.date            2020/10
+.date            2022/10/23
 .image           /image.cardheaders/shrine.jpg
 .time            12:00pm-2:00pm
 .location.maps   Shine of Rememberance, Melboure, Australia
 .disable
 
 event            9th Division Shrine Pilgrimage Service
-.date            2020/10
+.date            2022/10/21
 .image           /image.cardheaders/shrine.jpg
-.time            11am to be followed by luncheon at scotch college
+.time            1:00pm
 .location.maps   Shine of Rememberance, Melboure, Australia
 .disable
 
 event            Wangaratta Reunion Weekend
-.date            2021/4/23
-.date.until      2021/4/25
+.date            2022/11/4
+.date.until      2022/11/6
 .image           /image.cardheaders/wangaratta.jpg
 .time            Various events
 .location        Various locations
 .location.maps   Wangaratta, Victoria, Australia
+.disable
 
 
 
