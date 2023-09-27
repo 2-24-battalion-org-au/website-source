@@ -18,7 +18,7 @@ Immediately on the right is the bluestone Memorial Wall with gumtree sentinels. 
 </div>
 
 &nbsp;  
-**The 2/24 Memorial Wall** consists if a centre bluestone column with the Honour Roll of the men of the 2/24th who died on active service; abutted on each side by individual plaques of the Battalion Commanders. Over 250 other individual plaques, dedicated to servicemen who have died since the War, are mounted on the bluestone walls. The plaques are inscribed and mounted by the local stonemasons, E J Wright and Sons Memorials of Wangaratta.
+**The 2/24 Memorial Wall** consists of a centre bluestone column with the Honour Roll of the men of the 2/24th who died on active service; abutted on each side by individual plaques of the Battalion Commanders. Over 250 other individual plaques, dedicated to servicemen who have died since the War, are mounted on the bluestone walls. The plaques are inscribed and mounted by the local stonemasons, E J Wright and Sons Memorials of Wangaratta.
 
 
 Families of 2/24th who wish to have a plaque honouring their serviceman should contact the President of the 2/24 Battalion Association to request an Application Form. 
