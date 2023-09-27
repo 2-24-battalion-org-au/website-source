@@ -5,7 +5,7 @@
 
 
 event            Association AGM
-.date            2022/10/10
+.date            2023/10/16
 .image           /image.cardheaders/anzac.jpg
 .time            Check Furphy Flyer for exact details
 .location        Online
@@ -37,24 +37,24 @@ event            Battalion Birthday Lunch
 .disable
 
 event            2/24th Shrine Pilgrimage Service
-.date            2022/10/23
+.date            2023/10/22
 .image           /image.cardheaders/shrine.jpg
-.time            12:00pm-2:00pm
+.time            12:30pm-1:00pm
 .location.maps   Shine of Rememberance, Melboure, Australia
 .disable
 
 event            9th Division Shrine Pilgrimage Service
-.date            2022/10/21
+.date            2023/10/20
 .image           /image.cardheaders/shrine.jpg
-.time            1:00pm
+.time            1:00pm-1.30pm
 .location.maps   Shine of Rememberance, Melboure, Australia
 .disable
 
 event            Wangaratta Reunion Weekend
-.date            2022/11/4
-.date.until      2022/11/6
+.date            2023/11/10
+.date.until      2023/11/12
 .image           /image.cardheaders/wangaratta.jpg
-.time            Various events
+.time            Check Furphy Flyer for exact details
 .location        Various locations
 .location.maps   Wangaratta, Victoria, Australia
 .disable
