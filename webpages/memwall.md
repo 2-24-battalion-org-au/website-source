@@ -23,7 +23,7 @@ Immediately on the right is the bluestone Memorial Wall with gumtree sentinels. 
 
 Families of 2/24th who wish to have a plaque honouring their serviceman should contact the President of the 2/24 Battalion Association to request an Application Form. 
 Contact details are
-* Mail: The President, 2/24 Battalion Association, 34 Jamescott Drive, Drouin Vic  3181 
+* Mail: The President, 2/24 Battalion Association, 34 Jamescott Drive, Drouin Vic  3818
 * E-mail: President@2-24.battalion.org.au 
 
 The cost of a plaque is $110 inc GST. Details of payment are on the Application Form.
