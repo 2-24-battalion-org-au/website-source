@@ -6,7 +6,7 @@ file /index.head.html
 cards.begin
 
 include.album  /cards.frontpage/index.album
-#include.card   /cards.events/index.album
+include.card   /cards.events/index.album
 
 cards.end
 
