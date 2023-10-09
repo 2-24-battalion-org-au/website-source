@@ -4,14 +4,19 @@
 
 
 
-[A location history of the 2/24th battalion](timeline-ww2-24.pptx) during the 2nd world war.
+## The 2/24th battalion
+
+The 2/24th Battalion saw action in the middle east and in the pacific
+
+A presentation on the [A location history of the 2/24th battalion](timeline-ww2-24-battalion/index.html)
 
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1yCYOlYnnxR8gxbJIwepvS2g39y7QS4o&ehbc=2E312F" width="640" height="480"></iframe>
+
+## The 24th militia infantry battalion
 
 
+The 2/24th Militia Battalion saw action in the pacific
+
+A presentation on the [A location history of the 24th militia](timeline-ww2-24-militia/index.html)
 
 
-# Locations and timelines of the 24th battalion (1st world war)
-
-[A location history of the original 24th battalion](timeline-ww1-24.pptx) during the 1st world war.

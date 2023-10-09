@@ -24,8 +24,8 @@ toolkit.setting('menubottom', toolkit.menu2html( xmenus.menubottom ) )
 toolkit.setting('title','2-24th Battalion Association')
 toolkit.setting('keywords',"Tobruk, 2nd AIF, Tel El Eisa, El Alamein, Rats of Tobruk, World War 2, ANZAC, Australian Army, 9th Division, Salient, Halfaya Pass, Tarakan, New Guinea, Finschhafen, Lae, Wangaratta's Own")
 
-ht.precopy('/timeline-ww1-24.pptx')
-ht.precopy('/timeline-ww2-24.pptx')
+ht.precopy('/timeline-ww2-24-battalion/timeline.pptx')
+ht.precopy('/timeline-ww2-24-militia/timeline.pptx')
 
 ht.precopy('/.build.txt')
 
