@@ -1,6 +1,6 @@
 
 
-# List of battalion members who were Killed during the war
+# List of battalion members who died on active service
 
 
 
