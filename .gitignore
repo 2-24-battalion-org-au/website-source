@@ -6,6 +6,8 @@ rolls/pull.spreadsheets/lib/
 webpages/.build.txt
 webpages/vale_builddate.md
 webpages/vale_widows_builddate.md
+rolls/verify.ff.addresslist/*.pdf
+rolls/verify.ff.addresslist/*.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
