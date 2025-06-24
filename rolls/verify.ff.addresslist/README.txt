@@ -1,6 +1,7 @@
-extract with:
 
-pdftotext -raw FF\ labels-\ May\ 2021.pdf
+
+
+pdf2text *.pdf > *.txt
 
 genereates a .txt file
 
