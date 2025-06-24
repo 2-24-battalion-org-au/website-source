@@ -18,7 +18,7 @@ class Member:
 
 
 class MembersDB:
-  def __init__(self,file='members.csv'):
+  def __init__(self,file='../pull.spreadsheets/pulled.spreadsheets/members.csv'):
     self.members=[]
     self.HEADERS={}
     #
